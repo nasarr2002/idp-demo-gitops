@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: idp-demo-app
+  namespace: default
   labels:
     app: idp-demo-app
 spec:
